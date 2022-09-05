@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+header{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    background-color: brown;
+}
+
+img#hero{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+h1#hero{
+    color: white;
+    font-size: 40px;
+    font-family: 'Aboreto', cursive;
+
+}
+h4#hero{
+
+     color: white;
+     font-size: 20px;
+     font-family:'Aboreto', cursive;
+
+}
+nav{
+    
+    background-color: blueviolet;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+}
+
+li{
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+li a:hover{
+    color: green;
+}
+section#hero{
+    text-align: center;
+}
